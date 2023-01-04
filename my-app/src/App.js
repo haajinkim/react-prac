@@ -1,19 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Button from './Button';
+import Users from './api/get/get';
 
 function App() {
   const testText = '변수로 텍스트 출력하기'
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-        { testText }
-        </p>
-       < Button />
-      </header>
-    </div>
-  );
+    < Users />
+  )
 }
 
 export default App;
